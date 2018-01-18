@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-Create at: earlier
-Modify at: 2018-01-18
+Create on: earlier
+Modify on: 2018-01-18
 Description: None
 
 Guangzhou Tronlong Electronic Technology Co.,Ltd.
