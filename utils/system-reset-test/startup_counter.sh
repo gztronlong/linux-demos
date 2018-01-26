@@ -13,3 +13,6 @@ else
     echo 'Number of start times' >> /home/root/startup_counter.txt
     echo 'The first time to start up this system!'
 fi
+
+sync
+
