@@ -16,8 +16,11 @@ int main()
 
     char time_str[256];
     strftime(time_str, sizeof(time_str), "%Y-%m-%d %H:%M:%S", ts);
-
     printf("%s\n", time_str);
+
+    char time_str2[256];
+    snprintf(time_str2, 256, "%s.%03ld", time_str, now.tv_usec / 1000);
+    printf("%s\n", time_str2);
 
     return 0;
 }
